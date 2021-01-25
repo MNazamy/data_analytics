@@ -31,7 +31,7 @@ VALUES
 	('Brenda',5,'Excellent analisys!','9X7Y9IvXyEA');
 
 
-
+/*Joining the 2 tables based on their video_id column matching.*/
 select * from Videos
 Inner Join Reviews on Reviews.video_id = Videos.video_id
 	 
