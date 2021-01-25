@@ -1,5 +1,5 @@
 
-/*Creating and Populating the 'Videos' table
+/*Creating and Populating the 'Videos' table*/
 create table Videos(
 	video_id VARCHAR(50) UNIQUE PRIMARY KEY,
 	url VARCHAR(100) NOT null,
@@ -13,8 +13,7 @@ VALUES
 ('syrjT-HNnAE','https://www.youtube.com/watch?v=syrjT-HNnAE','I Restored This $5 Ebay Junk Gameboy Advance. It Used to be Blue – Retro Console Repair','Odd Tinkering',20),
 ('9X7Y9IvXyEA','https://www.youtube.com/watch?v=9X7Y9IvXyEA','What is Dele Allis Best Position Statistically?','Tifo Football',7);
 
-*/
-/*Creating and Populating the 'Reviews' table
+/*Creating and Populating the 'Reviews' table 	*/
 create table Reviews(
 	users_name VARCHAR(50),
 	rating int,
@@ -30,7 +29,7 @@ VALUES
 	('Kyle',2,'This video makes me sad because I miss my gameboy','syrjT-HNnAE'),
 	('Bob',3,'I dont think Deli Alli deserves all that praise youre giving him.','9X7Y9IvXyEA'),
 	('Brenda',5,'Excellent analisys!','9X7Y9IvXyEA');
-	*/
+
 
 
 select * from Videos
